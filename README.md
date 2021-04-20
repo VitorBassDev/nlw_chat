@@ -17,6 +17,7 @@
   ```arquivo ormconfig.json ```
   Possui as configurações do banco, das entidades e das migrations
   Para este projeto, esse arquivo contém as configurações de criação e execução de migrations
+  Mapeia as entidades da aplicação
 ---
  ## Migrations 
   ```arquivo src/database/migrations```
@@ -34,3 +35,6 @@
 
   #### Models Implementadas:
   settings
+
+  ## Criar Entidades e Prototipar 
+  ```src/entities```
