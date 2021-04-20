@@ -36,5 +36,18 @@
   #### Models Implementadas:
   settings
 
+---
   ## Criar Entidades e Prototipar 
   ```src/entities```
+
+  #### Entities Implementadas:
+  settings
+
+  ## Criar e Implementar Repositório 
+  ```src/repositories```
+  -- Estutura de uma classe responsável por manipular dados na aplicação.
+  -- Responsável por fazer a comunicação entre a entidade e a tabela do banco de dados.
+
+
+  
+
