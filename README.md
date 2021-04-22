@@ -2,6 +2,8 @@
  Bibliotecas
  Express
  Uuid
+ socket.io
+ Módulo EJS
 
 ---
  ### Banco de Dados
@@ -49,5 +51,10 @@
   -- Responsável por fazer a comunicação entre a entidade e a tabela do banco de dados.
 
 
+  ### Aprendizado
+  - Usar o Socket.io
+  ``` configuração do socket.io está no arquivo server.ts```
   
+  - Setar configuração de arquivos do frontend
+  ```configuração está no arquivo server.ts```
 
