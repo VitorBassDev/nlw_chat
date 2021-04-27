@@ -1,14 +1,20 @@
 import {Entity, Column, CreateDateColumn, UpdateDateColumn, PrimaryColumn } from 'typeorm'
 import {v4 as uuid} from 'uuid'
 
-@Entity("user")
-class User {
+@Entity("settings")
+class Setting {
 
   @PrimaryColumn()
   id: string;
 
   @Column()
-  email: string;
+  username: string;
+
+  @Column()
+  chat: boolean;
+
+  @UpdateDateColumn()
+  updated_at: Date;
 
   @CreateDateColumn()
   created_at: Date;
@@ -20,4 +26,4 @@ class User {
   }
 }
 
-export {User}
+export {Setting}
