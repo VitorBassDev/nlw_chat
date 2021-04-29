@@ -21,8 +21,8 @@ class Message {
   @Column()  
   user_id: string
 
-  @UpdateDateColumn()
-  updated_at: Date;
+  @CreateDateColumn()
+  created_at: Date;
 
   constructor(){
     if(!this.id){
